@@ -322,4 +322,3 @@ julien@ubuntu:~/c/0x00$
 -   Directory: `0x00-hello_world`
 -   File: `4-puts.c`
 
- Done!

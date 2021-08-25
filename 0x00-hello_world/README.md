@@ -2,9 +2,6 @@
 ======================
 
 -   By Julien Barbier
--   Ongoing project - started 08-26-2021, must end by 08-27-2021 (in about 24 hours) - you're done with 0% of tasks.
--   Checker was released at 08-26-2021 12:00 AM
--   QA review fully automated.
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)
 

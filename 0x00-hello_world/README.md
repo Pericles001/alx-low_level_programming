@@ -201,3 +201,62 @@ julien@ubuntu:~/c/0x00$ cat -v main.o | head
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x00-hello_world`
 -   File: `1-compiler`
+
+### 2\. Assembler
+
+mandatory
+
+Write a script that generates the assembly code of a C code and save it in an output file.
+
+-   The C file name will be saved in the variable `$CFILE`
+-   The output file should be named the same as the C file, but with the extension `.s` instead of `.c`.
+    -   Example: if the C file is `main.c`, the output file should be `main.s`
+
+```
+julien@ubuntu:~/c/0x00$ export CFILE=main.c
+julien@ubuntu:~/c/0x00$ cat main.c
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    return (0);
+}
+julien@ubuntu:~/c/0x00$ ./2-assembler
+julien@ubuntu:~/c/0x00$ ls
+0-preprocessor  1-compiler  2-assembler c  main.c  main.s  Makefile
+julien@ubuntu:~/c/0x00$ cat main.s
+    .file   "main.c"
+    .text
+    .globl  main
+    .type   main, @function
+main:
+.LFB0:
+    .cfi_startproc
+    pushq   %rbp
+    .cfi_def_cfa_offset 16
+    .cfi_offset 6, -16
+    movq    %rsp, %rbp
+    .cfi_def_cfa_register 6
+    movl    $0, %eax
+    popq    %rbp
+    .cfi_def_cfa 7, 8
+    ret
+    .cfi_endproc
+.LFE0:
+    .size   main, .-main
+    .ident  "GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609"
+    .section    .note.GNU-stack,"",@progbits
+julien@ubuntu:~/c/0x00$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x00-hello_world`
+-   File: `2-assembler`

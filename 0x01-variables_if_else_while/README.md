@@ -2,9 +2,6 @@
 ====================================
 
 -   By Julien Barbier
--   Ongoing project - started 08-27-2021, must end by 08-28-2021 (in about 24 hours) - you're done with 0% of tasks.
--   Checker will be released at 08-27-2021 12:00 PM
--   QA review fully automated.
 
 Resources
 ---------

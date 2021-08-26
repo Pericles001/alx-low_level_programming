@@ -296,3 +296,29 @@ julien@ubuntu:~/c/0x00$
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x00-hello_world`
 -   File: `3-name`
+
+### 4\. Hello, puts
+
+mandatory
+
+Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
+
+-   Use the function `puts`
+-   You are not allowed to use `printf`
+-   Your program should end with the value `0`
+
+```
+julien@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
+"Programming is like building a multilingual puzzle
+julien@ubuntu:~/c/0x00$ echo $?
+0
+julien@ubuntu:~/c/0x00$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x00-hello_world`
+-   File: `4-puts.c`
+

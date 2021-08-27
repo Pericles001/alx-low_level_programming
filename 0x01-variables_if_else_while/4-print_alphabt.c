@@ -14,7 +14,6 @@ if (letter == 'q' || letter == 'e')
 {
 continue;
 }
-letter = tolower(letter);
 putchar(letter);
 }
 putchar('\n');

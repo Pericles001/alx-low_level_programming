@@ -12,6 +12,10 @@ for (digit1 = 0; digit1 < 10; digit1++)
 {
 for (digit2 = 1; digit2 < 10; digit2++)
 {
+
+if (digit1 == digit2)
+continue;
+
 putchar((digit1 % 10) + '0');
 putchar((digit2 % 10) + '0');
 

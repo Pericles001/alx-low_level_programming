@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
 *main - Prints all combinations of two digits with,
 * and space followed by new line

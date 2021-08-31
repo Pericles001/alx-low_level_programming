@@ -6,25 +6,21 @@
 */
 void times_table(void)
 {
-int num1, num2, num3;
-for (num1 = 0; num1 <= 9; num1++)
-_putchar('0');
+int digit, mult, result;
+for (digit = 0; digit <= 9; digit++)
 {
-for (num2 = 1; num2 <= 9; num2++)
+for (mult = 0;  mult <= 9; mult++)
 {
+result = digit * mult;
+if (result > 9) {
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
+}else
+_putchar(result + '0');
+
 _putchar(',');
 _putchar(' ');
-num3 = num1 * num2;
-if (num3 <= 9)
-{
-_putchar(' ');
 }
-else
-_putchar((num3 / 10) + '0');
-
-
-_putchar((num3 % 10) + '0');
+_putchar('\n');
 }
-}
-_putchar(10);
 }

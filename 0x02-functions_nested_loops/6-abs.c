@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*abs - prints the absolute value of a number
+* _abs - prints the absolute value of a number
 *@i: number targeted
 *Return: returns 0
 */

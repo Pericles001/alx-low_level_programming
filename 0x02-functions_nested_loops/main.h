@@ -1,4 +1,4 @@
-
+#define MAIN_H
 /**
 *File:main.h
 *Author:Pericles Adjovi

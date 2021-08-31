@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-char school = "Holberton";
+char school[9] = "Holberton";
 int i;
-for(i = 0; i < 8; i++)
+for(i = 0; i <= 9; i++)
 {
 _putchar(school[i]);
 }

@@ -20,7 +20,7 @@ _putchar((result % 10) + '0');
 else
 {
 _putchar(' ');
-_putchar(result + '0');
+_putchar('0');
 }
 
 if (mult != 9)

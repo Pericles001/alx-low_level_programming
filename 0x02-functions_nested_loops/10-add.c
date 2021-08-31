@@ -5,7 +5,7 @@
 *@dg2:second integer
 *Return: returns 0
 */
-int add(int dg1, int dg2)
+int add(int n, int m)
 {
-return (dg1 + dg2);
+return (n + m);
 }

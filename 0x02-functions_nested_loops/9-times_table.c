@@ -9,24 +9,22 @@ void times_table(void)
 int digit, mult, result;
 for (digit = 0; digit <= 9; digit++)
 {
-for (mult = 0;  mult <= 9; mult++)
-{
-result = digit * mult;
-_putchar(' ');
-_putchar(result + '0');
+  _putchar('0');
 
-if (result > 9)
-{
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
-}
+		for (mult = 1; mult <= 9; mult++)
+		{
+			_putchar(',');
+			_putchar(' ');
 
-if (mult != 9)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-_putchar('\n');
+			result = digit * mult;
+
+			if (result <= 9)
+				_putchar(' ');
+			else
+				_putchar((result / 10) + '0');
+
+			_putchar((result % 10) + '0');
+		}
+		_putchar('\n');
 }
 }

@@ -4,7 +4,7 @@
 *
 *Return:returns 0
 */
-void 24_hours(void)
+void jack_bauer(void)
 {
 int min, hour;
 for (hour = 0; hour < 23; hour++)

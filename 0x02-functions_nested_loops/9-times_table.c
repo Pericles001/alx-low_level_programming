@@ -23,11 +23,8 @@ _putchar(' ');
 _putchar(result + '0');
 }
 
-if (mult == 9)
+if (mult != 9)
 {
-continue;
-}
-else
 _putchar(',');
 _putchar(' ');
 }

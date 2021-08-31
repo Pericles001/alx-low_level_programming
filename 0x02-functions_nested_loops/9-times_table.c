@@ -14,8 +14,8 @@ for (mult = 0;  mult <= 9; mult++)
 result = digit * mult;
 if (result > 9)
 {
- _putchar((result / 10) + '0');
- _putchar((result % 10) + '0');
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
 }
 else
 {

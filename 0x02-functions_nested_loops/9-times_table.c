@@ -12,15 +12,13 @@ for (digit = 0; digit <= 9; digit++)
 for (mult = 0;  mult <= 9; mult++)
 {
 result = digit * mult;
+_putchar(' ');
+_putchar(result + '0');
+
 if (result > 9)
 {
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
-}
-else
-{
-_putchar(' ');
-_putchar(result);
 }
 
 if (mult != 9)

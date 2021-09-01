@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-int n1 = 1, n2 = 2, n3, inc;
-for (inc = 2; inc <= 50; inc++)
+int n1 = 0, n2 = 1, n3, inc;
+for (inc = 0; inc < 50; inc++)
 {
 n3 = n1 + n2;
 printf("%d, ", n3);
 n1 = n2;
 n2 = n3;
 
-if (inc == 50)
+if (inc == 49)
 printf("%d\n", n3);
 }
 

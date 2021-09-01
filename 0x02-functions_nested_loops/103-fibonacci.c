@@ -9,19 +9,15 @@ int main(void)
 {
 unsigned long n1 = 0, n2 = 1, n3;
 float sum;
-while (1)
+while (sum <= 4000000)
 {
 n3 = n1 + n2;
-printf("%lu", n3);
-if (n3 > 4000000)
-break;
+n1 = n2;
+n2 = n3;
 
 if ((n3 % 2) == 0)
 sum += n3;
 
-
-n1 = n2;
-n2 = n3;
 }
 printf("%.Of\n", sum);
 return (0);

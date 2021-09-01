@@ -23,6 +23,6 @@ sum += n3;
 n1 = n2;
 n2 = n3;
 }
-printf("%.0f\n", sum);
+printf("%.Of\n", sum);
 return (0);
 }

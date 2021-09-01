@@ -1,13 +1,14 @@
 #include "main.h"
 /**
-*times_table - prints the 9 times table
-*
+*print_times_table - prints the  times table with
+*parameter
+*@n: parameter
 *Return: returns nothing
 */
 void print_times_table(int n)
 {
 
-if (n =< 15 || n >= 0)
+if (n <= 15 || n >= 0)
 {
 int digit, mult, result;
 for (digit = 0; digit <= n; digit++)

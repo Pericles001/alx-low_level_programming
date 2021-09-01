@@ -15,8 +15,11 @@ n3 = n1 + n2;
 printf("%lu", n3);
 if (n3 > 4000000)
 break;
-if (n3 % 2 == 0)
+
+if ((n3 % 2) == 0)
 sum += n3;
+
+
 n1 = n2;
 n2 = n3;
 }

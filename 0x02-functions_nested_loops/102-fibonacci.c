@@ -16,7 +16,10 @@ n1 = n2;
 n2 = n3;
 
 if (inc == 49)
-printf("%lu\n", n3);
+printf("\n");
+else
+printf(", ");
+
 }
 
 return (0);

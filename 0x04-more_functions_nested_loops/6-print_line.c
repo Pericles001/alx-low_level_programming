@@ -13,7 +13,7 @@ _putchar(10);
 
 for (inc = 0; inc < n; inc++)
 {
-_putchar(196);
+_putchar('_');
 }
 _putchar(10);
 }

@@ -23,5 +23,7 @@ printf("Buzz ");
 
 else
 printf("%d ", num );
+
 printf("\n");
+return (0);
 }

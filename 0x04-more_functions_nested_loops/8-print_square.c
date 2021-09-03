@@ -4,7 +4,7 @@
 *@size: parameter
 *Return:returns nothing
 */
-void print_line(int size)
+void print_square(int size)
 {
 while (size-- > 0)
 {

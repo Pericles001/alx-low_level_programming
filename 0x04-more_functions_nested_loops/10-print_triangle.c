@@ -21,9 +21,8 @@ _putchar('#');
 if (inc1 == size)
 continue;
 
-}
-}
-else
 _putchar('\n');
-
+}
+}
+_putchar('\n');
 }

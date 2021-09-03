@@ -13,7 +13,7 @@ int num;
 while (num++ < 100)
 
 if ((num % 3 == 0) && (num % 5 == 0))
-printf("fizzBuzz");
+printf("fizzBuzz ");
 
 else if ((num % 3) == 0)
 printf("Fizz ");
@@ -26,7 +26,6 @@ printf("Buzz ");
 else
 printf("Buzz");
 }
-
 else
 printf("%d ", num);
 

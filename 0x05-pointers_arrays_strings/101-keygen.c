@@ -15,8 +15,8 @@ while (i <= 2465)
 {
 password = rand() % 128;
 i += password;
-_putchar(password);
+putchar(password);
 }
-_putchar(2772 - i);
+putchar(2772 - i);
 return (0);
 }

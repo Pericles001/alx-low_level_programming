@@ -10,6 +10,7 @@ void print_rev(char *s);
 void rev_string(char *s);
 void swap_int(int *a, int *b);
 void swap_char(char *a, char *b);
+void puts2(char *str);
 int _putchar(char c);
 int _strlen(char *s);
 #endif /*MAIN_H*/

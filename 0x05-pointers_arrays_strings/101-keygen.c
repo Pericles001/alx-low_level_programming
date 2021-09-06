@@ -11,7 +11,7 @@ int main(void)
 char password;
 int i;
 srand(time(0));
-while (i <= 2465)
+while (i <= 2645)
 {
 password = rand() % 128;
 i += password;

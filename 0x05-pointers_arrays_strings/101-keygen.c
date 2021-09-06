@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-char password;
-int i;
+char c;
+int x;
+
 srand(time(0));
-while (i <= 2645)
+while (x <= 2645)
 {
-password = rand() % 128;
-i += password;
-putchar(password);
+c = rand() % 128;
+x += c;
+putchar(c);
 }
-putchar(2772 - i);
+putchar(2772 - x);
 return (0);
 }

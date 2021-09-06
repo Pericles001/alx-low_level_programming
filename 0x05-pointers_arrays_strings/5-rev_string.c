@@ -6,14 +6,14 @@
 */
 void rev_string(char *s)
 {
-int index, len = 0;
-char *start = s, tmp = "";
+int index = -1 , len = 0;
 len = _strlen(s);
 
-for (index = len - 1; index >= 0; index--)
-tmp += s[index];
+while (len-- > index++)
+{
+swap_char(&s[len], &s[index]);
+}
 
-*start = tmp;
 }
 
 /**
@@ -29,4 +29,18 @@ for (count = 0; s[count] != '\0'; count++)
 inc++;
 
 return (inc);
+}
+
+/**
+*swap_char - swap two characters
+*@a: first character
+*@b: second character
+*Return: nothing
+*/
+
+void swap_char(char *a, char *b)
+{
+char tmp = *a;
+*a = *b;
+*b = tmp;
 }

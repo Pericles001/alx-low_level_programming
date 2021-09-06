@@ -10,7 +10,7 @@ int main(void)
 {
 char *password;
 int i;
-srand(times(0));
+srand(time(0));
 while (i <= 2465)
 {
 password = rand() % 128;

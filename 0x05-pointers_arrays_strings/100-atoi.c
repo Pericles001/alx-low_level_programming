@@ -16,7 +16,6 @@ num = num * 10 + (*s - '0');
 else if (num > 0)
 break;
 }
-
-} while (*s++);
+while (*s++);
 return (num *i);
 }

@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char *password;
+char password;
 int i;
 srand(time(0));
 while (i <= 2465)

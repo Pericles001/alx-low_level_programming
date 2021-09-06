@@ -6,14 +6,14 @@
 */
 void rev_string(char *s)
 {
-int index = -1, len = 0;
-len = _strlen(s);
-
-while (len-- > index++)
+int i = 0, length;
+length = _strlen(s) - 1;
+while (length > i)
 {
-swap_char(s + len, s + index);
+swap_char(s + length, s + i);
+i++;
+length--;
 }
-
 }
 
 /**

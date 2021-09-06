@@ -11,7 +11,7 @@ len = _strlen(s);
 
 while (len-- > index++)
 {
-swap_char(&s[len], &s[index]);
+swap_char(s + len, s + index);
 }
 
 }

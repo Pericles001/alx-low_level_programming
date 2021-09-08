@@ -2,9 +2,6 @@
 ===========================================
 
 -   By Julien Barbier
--   Ongoing project - started 09-08-2021, must end by 09-10-2021 (in 1 day) - you're done with 0% of tasks.
--   Checker will be released at 09-09-2021 06:00 AM
--   QA review fully automated.
 
 ![](https://alx-intranet.hbtn.io/images/contents/low_level_programming/projects/happy-clapping.gif)
 

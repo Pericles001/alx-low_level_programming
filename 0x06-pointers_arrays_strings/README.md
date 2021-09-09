@@ -495,3 +495,314 @@ julien@ubuntu:~/0x06$
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x06-pointers_arrays_strings`
 -   File: `7-leet.c`
+
+
+### 8\. rot13
+
+#advanced
+
+Write a function that encodes a string using [rot13](https://alx-intranet.hbtn.io/rltoken/YRxmNA7BnP6yZhl09TKX3A "rot13").
+
+-   Prototype: `char *rot13(char *);`
+
+-   You can only use `if` statement once in your code
+-   You can only use two loops in your code
+-   You are not allowed to use `switch`
+-   You are not allowed to use any ternary operation
+
+```
+julien@ubuntu:~/0x06$ cat 100-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char s[] = "ROT13 (\"rotate by 13 places\", sometimes hyphenated ROT-13) is a simple letter substitution cipher.\n";
+    char *p;
+
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-rot13.c -o 100-rot13
+julien@ubuntu:~/0x06$ ./100-rot13
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+julien@ubuntu:~/0x06$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x06-pointers_arrays_strings`
+-   File: `100-rot13.c`
+
+ Done? Help Check your code
+
+### 9\. Numbers have life; they're not just symbols on paper
+
+#advanced
+
+Write a function that prints an integer.
+
+-   Prototype: `void print_number(int n);`
+-   You can only use `_putchar` function to print
+-   You are not allowed to use `long`
+-   You are not allowed to use arrays or pointers
+-   You are not allowed to hard-code special values
+
+```
+julien@ubuntu:~/0x06$ cat 101-main.c
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_number(98);
+    _putchar('\n');
+    print_number(402);
+    _putchar('\n');
+    print_number(1024);
+    _putchar('\n');
+    print_number(0);
+    _putchar('\n');
+    print_number(-98);
+    _putchar('\n');
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 101-main.c 101-print_number.c -o 101-print_numbers
+julien@ubuntu:~/0x06$ ./101-print_numbers
+98
+402
+1024
+0
+-98
+julien@ubuntu:~/0x06$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x06-pointers_arrays_strings`
+-   File: `101-print_number.c`
+
+ Done? Help Check your code
+
+### 10\. A dream doesn't become reality through magic; it takes sweat, determination and hard work
+
+#advanced
+
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/21b4fc5c1b5df84e6ae4fe8807aa359d929e748a.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20210909%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210909T112251Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=19734984d34c3775ce10fae611a59f01ebfcf756e4c449099bed7e8b6ecaea64)
+
+Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c "this code"), so that the program prints `a[2] = 98`, followed by a new line.
+
+-   You are not allowed to use the variable `a` in your new line of code
+-   You are not allowed to modify the variable `p`
+-   You can only write one statement
+-   You are not allowed to use `,`
+-   You are not allowed to code anything else than the line of expected line of code at the expected line
+-   Your code should be written at line 19, before the `;`
+-   Do not remove anything from the initial code (not even the comments)
+-   and don't change anything but the line of code you are adding (don't change the spaces to tabs!)
+-   You are allowed to use the standard library
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x06-pointers_arrays_strings`
+-   File: `102-magic.c`
+
+ Done? Help Check your code
+
+### 11\. It is the addition of strangeness to beauty that constitutes the romantic character in art
+
+#advanced
+
+Write a function that adds two numbers.
+
+-   Prototype: `char *infinite_add(char *n1, char *n2, char *r, int size_r);`
+
+-   Where `n1` and `n2` are the two numbers
+-   `r` is the buffer that the function will use to store the result
+-   `size_r` is the buffer size
+-   The function returns a pointer to the result
+-   You can assume that you will always get positive numbers, or `0`
+-   You can assume that there will be only digits in the strings `n1` and `n2`
+-   `n1` and `n2` will never be empty
+-   If the result can not be stored in `r` the function must return `0`
+
+```
+julien@ubuntu:~/0x06$ cat 103-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+        char *n = "1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458";
+        char *m = "9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346";
+        char r[100];
+        char r2[10];
+        char r3[11];
+        char *res;
+
+        res = infinite_add(n, m, r, 100);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        n = "1234567890";
+        m = "1";
+        res = infinite_add(n, m, r2, 10);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        n = "999999999";
+        m = "1";
+        res = infinite_add(n, m, r2, 10);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        res = infinite_add(n, m, r3, 11);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-main.c 103-infinite_add.c -o 103-add
+julien@ubuntu:~/0x06$ ./103-add
+1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458 + 9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346 = 10269358555905271602506489145024737320744338932474201434349082690912722437209719106353804
+Error
+Error
+999999999 + 1 = 1000000000
+julien@ubuntu:~/0x06$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x06-pointers_arrays_strings`
+-   File: `103-infinite_add.c`
+
+ Done? Help Check your code
+
+### 12\. Noise is a buffer, more effective than cubicles or booth walls
+
+#advanced
+
+Write a function that prints a buffer.
+
+-   Prototype: `void print_buffer(char *b, int size);`
+
+-   The function must print the content of `size` bytes of the buffer pointed by `b`
+
+-   The output should print 10 bytes per line
+-   Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with `0`
+-   Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
+-   Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print `.`
+-   Each line ends with a new line `\n`
+-   If `size` is 0 or less, the output should be a new line only `\n`
+-   You are allowed to use the standard library
+-   The output should look like the following example, and formatted exactly the same way:
+
+```
+julien@ubuntu:~/0x06$ cat 104-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char buffer[] = "This is a string!\0And this is the rest of the #buffer :)\1\2\3\4\5\6\7#cisfun\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x20\x21\x34\x56#pointersarefun #infernumisfun\n";
+
+    printf("%s\n", buffer);
+    printf("---------------------------------\n");
+    print_buffer(buffer, sizeof(buffer));
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 104-main.c 104-print_buffer.c -o 104-buffer
+julien@ubuntu:~/0x06$ ./104-buffer
+This is a string!
+---------------------------------
+00000000: 5468 6973 2069 7320 6120 This is a
+0000000a: 7374 7269 6e67 2100 416e string!.An
+00000014: 6420 7468 6973 2069 7320 d this is
+0000001e: 7468 6520 7265 7374 206f the rest o
+00000028: 6620 7468 6520 2362 7566 f the #buf
+00000032: 6665 7220 3a29 0102 0304 fer :)....
+0000003c: 0506 0723 6369 7366 756e ...#cisfun
+00000046: 0a00 0000 0000 0000 0000 ..........
+00000050: 0000 0000 0000 0000 0000 ..........
+0000005a: 2021 3456 2370 6f69 6e74  !4V#point
+00000064: 6572 7361 7265 6675 6e20 ersarefun
+0000006e: 2369 6e66 6572 6e75 6d69 #infernumi
+00000078: 7366 756e 0a00           sfun..
+julien@ubuntu:~/0x06$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x06-pointers_arrays_strings`
+-   File: `104-print_buffer.c`

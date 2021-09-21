@@ -44,7 +44,7 @@ while (cents > 0)
 	}
 	cents--;
 }
-
+printf("%d\n", coins);
 return (0);
 }
 

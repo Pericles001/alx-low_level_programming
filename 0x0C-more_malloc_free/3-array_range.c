@@ -8,7 +8,7 @@
 * Return: pointer to the address of the memory block
 */
 
-void *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *block;
 	int i, j = 0;

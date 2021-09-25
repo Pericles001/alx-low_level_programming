@@ -52,3 +52,4 @@ int len(char *str)
 	}
 	return (len);
 }
+

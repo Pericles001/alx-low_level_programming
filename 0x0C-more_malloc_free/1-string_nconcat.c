@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * string_nconcat - concatenates 2 strings, takes the first n chars of s2

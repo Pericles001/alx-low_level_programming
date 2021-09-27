@@ -20,6 +20,13 @@ char *owner;
 
 
 /**
+* new type
+*/
+typedef struct dog dog_t;
+
+
+
+/**
 *prototypes are below
 *
 */

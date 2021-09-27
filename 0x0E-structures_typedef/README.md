@@ -2,9 +2,7 @@
 =============================
 
 -   By Julien Barbier
--   Ongoing project - started 09-27-2021, must end by 09-28-2021 (in about 15 hours) - you're done with 0% of tasks.
--   Checker will be released at 09-27-2021 06:00 PM
--   QA review fully automated.
+
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/50af78a28a081e809856d4cdbde2d7ca9d4aa93d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20210927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210927T115814Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0158eddf0bf8015b6b59f632a1f63a2db9337f476ec9a445b33187a425b611da)
 
@@ -47,8 +45,6 @@ Requirements
 -   In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don't have to push them to your repo (if you do we won't take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
 -   Don't forget to push your header file
 -   All your header files should be include guarded
-
-
 Tasks
 -----
 

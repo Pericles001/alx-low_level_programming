@@ -1,8 +1,6 @@
 #include "dog.h"
 
-int _strlen(char *str);
-char *_strcopy(char *dest, char *src);
-dog_t *new_dog(char *name, float age, char *owner);
+
 /**
 *_strlen - returns length of
 *a string
@@ -75,9 +73,9 @@ free(dog);
 return (NULL);
 }
 
-dog->name = _strcopy(dog->name = name);
+dog->name = _strcopy(dog->name , name);
 dog->age = age;
-dog->owner = _strcopy(dog->owner = owner);
+dog->owner = _strcopy(dog->owner , owner);
 
 return (dog);
 }

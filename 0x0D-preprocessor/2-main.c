@@ -3,13 +3,12 @@
 /**
 *main - prints the name of
 *the file it was compiled from
-*@argc:number of input arguments
-*@argv:array of outputs
+*
 *Return: nothing to be returned
 */
 
-int main(int __attribute__((unused)) argc, char **argv)
+int main(void)
 {
-printf("%s \n", argv[0]);
+printf("%s\n", __FILE__);
 return (0);
 }

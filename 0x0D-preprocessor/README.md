@@ -2,9 +2,7 @@
 ======================
 
 -   By Julien Barbier & Johan Euphrosine, Software Engineer at Google
--   Ongoing project - started 09-27-2021, must end by 09-28-2021 (in about 16 hours) - you're done with 0% of tasks.
--   Checker will be released at 09-27-2021 06:00 PM
--   QA review fully automated.
+
 
 Resources
 ---------

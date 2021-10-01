@@ -14,7 +14,7 @@ va_list li;
 int sum = 0;
 unsigned int i;
 
-va_start(n, li);
+va_start(li, n);
 
 if (n != 0)
 {

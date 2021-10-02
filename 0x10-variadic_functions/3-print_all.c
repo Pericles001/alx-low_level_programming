@@ -20,11 +20,11 @@ printf("%c", letter);
 * @arg: A list of arguments pointing to
 * the integer to be printed.
 */
-void print_int(va_lis arg)
+void print_int(va_list arg)
 {
 int num;
 
-num = va_arg(num, int);
+num = va_arg(arg, int);
 
 printf("%d", num);
 }

@@ -5,7 +5,7 @@
  *@head: pointer to the head of the list
  *@str: string to be added to the list
  *
- *Return: NULL in case of failure 
+ *Return: NULL in case of failure
  *or address or the element
 */
 

@@ -1,13 +1,13 @@
 #include <stdio.h>
 
+void __attribute__((constructor)) hare(void);
+
 /**
-*start_up_func - function that get executed before the main function
-*
-*
-*Return: void
-*/
-void start_up_func(void)
+ * hare - Prints a string before the
+ *   main function is executed.
+ */
+void hare(void)
 {
-	printf("You're a beat! and yet, you must allow,\n"
-			"I bore my house upon my back!\n");
+printf("You're beat! and yet, you must allow,\n"
+"I bore my house upon my back!\n");
 }

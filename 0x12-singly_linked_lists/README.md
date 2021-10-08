@@ -475,3 +475,66 @@ julien@ubuntu:~/0x12. Singly linked lists$
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x12-singly_linked_lists`
 -   File: `4-free_list.c`
+
+### 5\. The Hare and the Tortoise
+
+#advanced
+
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/de3291ccf5b255fff6ce37bfde7a13f481e7ed0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20211007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211007T225929Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6db4ca2afd70e3afd4f78f3b573af13c643aa2e0f5b0e416cfc610129da219ed)
+
+Write a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
+
+-   You are allowed to use the `printf` function
+
+```
+julien@ubuntu:~/0x12. Singly linked lists$ cat 100-main.c
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+    return (0);
+}
+julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-first.c -o first
+julien@ubuntu:~/$ ./first
+You're beat! and yet, you must allow,
+I bore my house upon my back!
+(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)
+julien@ubuntu:~/$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x12-singly_linked_lists`
+-   File: `100-first.c`
+
+### 6\. Real programmers can write assembly code in any language
+
+#advanced
+
+Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line.
+
+-   You are only allowed to use the `printf` function
+-   You are not allowed to use interrupts
+-   Your program will be compiled using `nasm` and `gcc`:
+
+```
+julien@ubuntu:~/$ nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
+julien@ubuntu:~/$ ./hello
+Hello, Holberton
+julien@ubuntu:~/$
+
+```
+
+**Repo:**
+
+-   GitHub repository: `alx-low_level_programming`
+-   Directory: `0x12-singly_linked_lists`
+-   File: `101-hello_holberton.asm`

@@ -26,7 +26,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		while (cursor->next != NULL)
 			cursor = cursor->next;
-			cursor->next = new_node;
+
+		cursor->next = new_node;
 	}
 	else
 		*head = new_node;

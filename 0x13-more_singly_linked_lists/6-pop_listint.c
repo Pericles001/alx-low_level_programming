@@ -14,6 +14,7 @@ int content;
 
 if (*head == NULL)
 return (0);
+
 popped = *head;
 content = popped->n;
 free(popped);

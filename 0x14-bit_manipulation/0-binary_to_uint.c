@@ -7,7 +7,7 @@
 *Return: The converted value
 */
 
-unsigned int *binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 unsigned int decimal = 0;
 int str_len = 0, base = 1;

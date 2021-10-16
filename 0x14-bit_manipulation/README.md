@@ -2,9 +2,7 @@
 ==========================
 
 -   By Julien Barbier
--   Ongoing project - started 10-14-2021, must end by 10-15-2021 (in about 12 hours) - you're done with 0% of tasks.
--   Checker was released at 10-14-2021 06:00 PM
--   QA review fully automated.
+
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/232/bitwise.PNG)
 

@@ -2,17 +2,7 @@
 ==================
 
 -   By Julien Barbier
--   Weight: 1
--   Ongoing second chance project - started 10-18-2021, must end by 10-23-2021 (in 4 days) - you're done with 0% of tasks.
--   QA review fully automated.
 
-#### In a nutshell...
-
--   **Auto QA review:** 0.0/43 mandatory & 0.0/9 optional
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: 0.0%
-    -   Calculation:  0.0% + (0.0% * 0.0%)  == **0.0%**
 
 Resources
 ---------

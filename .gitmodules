@@ -1,3 +1,6 @@
 [submodule "0x11-printf"]
 	path = 0x11-printf
 	url = https://github.com/Pericles001/printf.git
+[submodule "0x16-simple_shell"]
+	path = 0x16-simple_shell
+	url = https://github.com/Pericles001/simple_shell.git

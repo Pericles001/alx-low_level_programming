@@ -1,3 +1,3 @@
 #!/bin/bash
-git clone https://github.com/alx-low_level_programming.git~
-export LD_PRELOAD =~/alx-low_level_programming/0x18-dynamic_libraries/crack.so
+wget -P /tmp/ https://github.com/Pericles001/alx-low_level_programming/blob/master/0x18-dynamic_libraries/nrandom.so?raw=true
+export LD_PRELOAD =/tmp/nrandom.so

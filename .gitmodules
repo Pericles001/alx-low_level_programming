@@ -4,3 +4,6 @@
 [submodule "0x16-simple_shell"]
 	path = 0x16-simple_shell
 	url = https://github.com/Pericles001/simple_shell.git
+[submodule "0x19-stacks_queues_lifo_fifo"]
+	path = 0x19-stacks_queues_lifo_fifo
+	url = https://github.com/Pericles001/monty.git

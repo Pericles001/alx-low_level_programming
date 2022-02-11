@@ -1,9 +1,9 @@
-CC=gcc
-SRC=main.c school.clean
-OBJ=$(SRC:.c=.o)
-NAME=school
-RM= rm
-CFLAGS= -Wall -Werror -Wextra -pedantic
+CC = gcc
+SRC = main.c school.clean
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm
+CFLAGS = -Wall -Werror -Wextra -pedantic
 .PHONY: clean oclean fclean re
 
 all: m.h $(OBJ)
@@ -13,7 +13,7 @@ clean:
 	$(RM) *~ $(NAME)
 
 oclean: 
-	$(RM) -rf $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 

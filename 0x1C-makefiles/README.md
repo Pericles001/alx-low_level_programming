@@ -3,13 +3,7 @@
 
 -   By Julien Barbier
 -   Weight: 1
-#### In a nutshell...
 
--   **Auto QA review:** 0.0/52 mandatory & 0.0/13 optional
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: 0.0%
-    -   Calculation:  0.0% + (0.0% * 0.0%)  == **0.0%**
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/273/giphy-2.gif)
 

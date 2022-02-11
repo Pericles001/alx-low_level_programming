@@ -2,7 +2,6 @@ CC = gcc
 SRC = main.c school.clean
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
 .PHONY: clean oclean fclean re
 

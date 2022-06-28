@@ -38,4 +38,5 @@ algorithm section .
 * [0x1A. C - Hash tables](./0x1A-hash_tables)
 * [0x1B. C - Sorting algorithms & Big O ](./0x1B-sorting_algorithms)
 * [0x1C. C - Makefiles](./0x1C-makefiles)
+* [0x1D. C - Binary trees](./0x1D-binary_trees)
 * [0x1E. C - Search Algorithms](./0x1E-search_algorithms)

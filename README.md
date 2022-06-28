@@ -40,3 +40,14 @@ algorithm section .
 * [0x1C. C - Makefiles](./0x1C-makefiles)
 * [0x1D. C - Binary trees](./0x1D-binary_trees)
 * [0x1E. C - Search Algorithms](./0x1E-search_algorithms)
+
+## Author
+
+* **Pericles Adjovi** <[Pericles001](https://github.com/Pericles001)>
+
+## Credits
+
+All work contained in this project was completed as part of the curriculum for ALX Africa Software Engineering program built upon Holberton School projects and materials. Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit these links.
+
+* [ALX ](https://www.alxafrica.com/)
+* [Holberton School](https://www.holbertonschool.com/)

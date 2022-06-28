@@ -10,3 +10,6 @@
 [submodule "0x1B-sorting_algorithms"]
 	path = 0x1B-sorting_algorithms
 	url = https://github.com/Pericles001/sorting_algorithms.git
+[submodule "0x1D-binary_trees"]
+	path = 0x1D-binary_trees
+	url = https://github.com/Pericles001/binary_trees.git
